@@ -1,0 +1,8 @@
+@import '../settings.scss';
+
+.footer_container {
+    height: 40px;
+    background-color: $dark-gray;
+    position: sticky;
+    bottom: 0;
+}

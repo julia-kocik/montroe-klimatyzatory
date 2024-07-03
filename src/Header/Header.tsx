@@ -4,7 +4,9 @@ import "./Header.scss";
 const Header = () => {
   return (
     <header>
-      <div className="logo">Montroe</div>
+      <div className="logo">
+        <img src="/logo.png" alt="Montroe Mave" />
+      </div>
       <nav>
         <ul>
           <li>

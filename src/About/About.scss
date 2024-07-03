@@ -1,4 +1,11 @@
 .about_container {
-    border: 2px solid red;
-    height: 500px;
+    height: 100vh;
+    background-image: url('../../public/office.jpg');
+    background-attachment: fixed;
+
+    .about_content {
+        background-color: rgba(22,22,22, 0.8);
+        height: 100%;
+        width: 100%;
+    }
 }
