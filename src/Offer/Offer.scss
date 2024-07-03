@@ -7,8 +7,17 @@
     background-attachment: fixed;
 
     .offer_content {
-        background-color: rgba(185, 183, 183, 0.8);
+        background-color: $light-bg;
         height: 100%;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul {
+            font-size: 42px;
+            width: 80%;     
+            list-style-type: square;       
+            color: $color-white;
+        }
     }
 }

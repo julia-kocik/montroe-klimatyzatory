@@ -1,3 +1,5 @@
+@import '../settings.scss';
+
 .hero_container {
     background-image: url('../../public/office.jpg');
     height: 100vh;
@@ -10,15 +12,15 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        color: white;
+        color: $color-white;
         h1 {
             font-weight: normal;
             margin: 40px;
-            font-size: 40px;
+            font-size: 48px;
         }
         button {
             background-color: transparent;
-            border: 3px solid white;
+            border: 3px solid $color-white;
             border-radius: 12px;
             padding: 6px 24px 12px 24px;
             font-size: 36px;
@@ -26,7 +28,7 @@
                 text-decoration: none;
                 height: 3px;
                 line-height: normal;
-                color: white;
+                color: $color-white;
                 height: 90%;
                 line-height: 2px;
             }

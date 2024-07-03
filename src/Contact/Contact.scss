@@ -1,10 +1,11 @@
+@import '../settings.scss';
 .contact_container {
     height: 100vh;
     background-image: url('../../public/office.jpg');
     background-attachment: fixed;
 
     .contact_content {
-        background-color: rgba(185, 183, 183, 0.8);
+        background-color: $light-bg;
         height: 100%;
         width: 100%;
     }
