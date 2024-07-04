@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.scss";
-import CookiesAcceptor from "../Cookies/CookiesAcceptor";
 
 const Footer = () => {
   return (

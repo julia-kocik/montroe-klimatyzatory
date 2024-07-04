@@ -15,6 +15,9 @@
         align-items: center;
         ul {
             font-size: 42px;
+            @include mobile {  
+                font-size: 26px;
+            }
             width: 80%;     
             list-style-type: square;       
             color: $color-white;

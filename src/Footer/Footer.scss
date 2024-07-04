@@ -5,9 +5,18 @@
     background-color: $dark-gray;
     position: sticky;
     bottom: 0;
+    @include tablet {  
+        height: 60px;
+    }
+    @include mobile {  
+        height: 62px;
+    }
     p {
         color: $color-white;
         font-size: 13px;
         padding: 5px;
+        @include mobile {
+            font-size: 9px;
+        }
     }
 }

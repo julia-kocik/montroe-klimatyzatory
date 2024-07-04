@@ -17,6 +17,10 @@
             font-weight: normal;
             margin: 40px;
             font-size: 48px;
+            @include mobile {  
+                font-size: 36px;
+            }
+            text-align: center;
         }
         button {
             background-color: transparent;
@@ -24,6 +28,9 @@
             border-radius: 12px;
             padding: 6px 24px 12px 24px;
             font-size: 36px;
+            @include mobile {  
+                font-size: 24px;
+            }
             a {
                 text-decoration: none;
                 height: 3px;

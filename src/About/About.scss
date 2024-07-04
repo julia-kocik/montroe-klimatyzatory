@@ -9,8 +9,16 @@
         height: 100%;
         width: 100%;
         display: flex;
-        align-items: center;
+        align-items: center;  
         padding: 0 40px;
+        @include tablet {  
+         flex-direction: column;  
+         padding: 40px;
+        }
+        @include mobile {  
+            flex-direction: column;  
+            padding: 40px;
+        }
         p {
             border: 3px solid $color-white;
             border-radius: 10px;
@@ -20,10 +28,21 @@
             margin: 0 20px;
             padding: 0 6px;
             font-size: 34px;
+            @include mobile {  
+                font-size: 18px;
+            }
             text-align: center;
             display: flex;
             justify-content: center;
             flex-direction: column;
+            @include tablet {  
+                min-height: 10%;
+                margin: 20px;
+            }
+            @include mobile {  
+                min-height: 10%;
+                margin: 20px;
+            }
             span {
                 margin-top: 14px;
             }

@@ -14,7 +14,7 @@ const Offer = () => {
           <li>Obsługa BMS.</li>
           <li>Przeglądy i naprawy systemu CCTV.</li>
           <li>Kontrola systemów ppoż. oraz SAP.</li>
-          <li>Serwis Klimatyzacji.</li>
+          <li>Serwis klimatyzacji.</li>
           <li>Prowadzenie dokumentacji UDT.</li>
         </ul>
       </div>

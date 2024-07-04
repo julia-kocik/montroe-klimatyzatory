@@ -8,6 +8,7 @@
     align-items: center;
     position: sticky;
     bottom: 46px;
+    z-index: 1;
     span {
         padding: 0 10px;
     }
@@ -37,8 +38,9 @@
 
 @include mobile {
     .cookies_container {
-        height: 130px;
+        height: 100px;
         flex-direction: column;
+        bottom: 62px;
         span {
             text-align: left;
             padding: 10px;
