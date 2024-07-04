@@ -6,3 +6,21 @@ $dark-gray: rgba(0, 0, 0, 1);
 $dark-bg:   rgba(22,22,22, 0.8);     
 $light-bg: rgba(90, 90, 90, 0.8);
 $color-white: #ebe8e8;
+$v-light-bg: rgba(90, 90, 90, 0.9);
+
+//RWD//
+$max-tablet-width: 1024px;
+$min-tablet-width: 577px;
+$max-mobile-width: 576px;
+
+@mixin tablet {
+    @media (min-width: $min-tablet-width) and (max-width: $max-tablet-width) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: $max-mobile-width) {
+        @content;
+    }
+}

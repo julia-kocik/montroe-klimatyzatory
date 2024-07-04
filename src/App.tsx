@@ -6,17 +6,22 @@ import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import Offer from "./Offer/Offer";
 import Footer from "./Footer/Footer";
+import { CookiesProvider } from "react-cookie";
+import CookiesAcceptor from "./Cookies/CookiesAcceptor";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Offer />
-      <About />
-      <Contact />
-      <Footer />
-    </div>
+    <CookiesProvider>
+      <div className="App">
+        <Header />
+        <Hero />
+        <Offer />
+        <About />
+        <Contact />
+        <CookiesAcceptor />
+        <Footer />
+      </div>
+    </CookiesProvider>
   );
 }
 
