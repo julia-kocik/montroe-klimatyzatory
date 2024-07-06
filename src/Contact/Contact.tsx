@@ -31,7 +31,7 @@ const Contact = () => {
           </div>
           <div className="contact_info">
             <h3>Adres</h3>
-            <span>a. Solidarności 68/121 00-240 Warszawa</span>
+            <span>al. Solidarności 68/121 00-240 Warszawa</span>
           </div>
         </div>
       </div>

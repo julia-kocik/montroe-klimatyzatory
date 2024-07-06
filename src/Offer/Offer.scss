@@ -2,25 +2,63 @@
 
 
 .offer_container {
-    height: 100vh;
     background-image: url('../../public/office.jpg');
     background-attachment: fixed;
+    color: $color-white;
+    h1, h2 {
+        padding: 30px;
+    }
+    h1 {
+        padding-top: 130px;
+        font-size: 36px;
+        text-align: center;
 
+    }
+    h2 {
+        font-size: 30px;
+    }
     .offer_content {
         background-color: $light-bg;
         height: 100%;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        .offer_lists {
+            display: flex;
+            @include mobile {  
+                flex-direction: column;
+            }
+            ul {
+                font-size: 28px;
+                padding: 10px 100px;
+                @include tablet {  
+                    font-size: 26px;
+                    padding: 10px 0 10px 60px;
+                }
+                @include mobile {  
+                    font-size: 26px;
+                    padding: 10px 0 10px 60px;
+                }
+                width: 80%;     
+                list-style-type: square;       
+            }
+            }
+    }
+    .offer_more {
+        h2 {
+            padding: 10px 20px;
+        }
         ul {
-            font-size: 42px;
+            font-size: 28px;
+            padding: 10px 100px 40px 100px;
+            @include tablet {  
+                padding: 10px 0 40px 60px;
+            }
             @include mobile {  
                 font-size: 26px;
+                padding: 10px 0 10px 60px;
             }
             width: 80%;     
             list-style-type: square;       
-            color: $color-white;
         }
     }
+       
 }
