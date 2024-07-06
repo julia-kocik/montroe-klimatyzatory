@@ -69,7 +69,7 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: $dark-gray;
+    background-color: rgba(90, 90, 90, 1);
     transition: 1s all;
     display: none;
     @include mobile {
@@ -78,6 +78,7 @@ header {
     }
     ul {
         height: 100%;
+        list-style-type: none;
         li {
             margin: 10px 0;
             padding: 10px 0;
